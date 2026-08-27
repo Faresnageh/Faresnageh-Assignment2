@@ -369,3 +369,20 @@ node_modules/
 *.key
 secrets.json
 .vs/
+
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Do you want to perform another calculation? (y/n)");
+                string continueChoice = Console.ReadLine();
+                if (continueChoice?.ToLower() != "y")
+                {
+                    break;
+                }
