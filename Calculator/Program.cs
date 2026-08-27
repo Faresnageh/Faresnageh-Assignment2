@@ -30,6 +30,15 @@
                         Console.WriteLine($"{number_1} * {number_2} = {number_1 * number_2}");
                         break;
                     case 4:
+                        if (number_2 == 0)
+                        {
+                            Console.WriteLine("Not invalid");
+                            return;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"{number_1} / {number_2} = {number_1 / number_2}");
+                        }
                         Console.WriteLine($"{number_1} / {number_2} = {number_1 / number_2}");
                         break;
                     default:
