@@ -14,7 +14,7 @@
                 Console.WriteLine("Plese choose you operation");
                 Console.WriteLine("choose 1 ==> + ");
                 Console.WriteLine("choose 2 ==> - ");
-                Console.WriteLine("choose 3 ==> 3 ");
+                Console.WriteLine("choose 3 ==> * ");
                 Console.WriteLine("choose 4 ==> / ");
                 Console.Write("Your choice: ");
                 bool isParsed03 = int.TryParse(Console.ReadLine(), out int op);
